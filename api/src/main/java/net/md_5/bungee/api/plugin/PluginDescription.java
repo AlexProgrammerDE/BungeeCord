@@ -35,11 +35,11 @@ public class PluginDescription
     /**
      * Plugin hard dependencies.
      */
-    private Set<String> depends = new HashSet<>();
+    private Set<String> depend = new HashSet<>();
     /**
      * Plugin soft dependencies.
      */
-    private Set<String> softDepends = new HashSet<>();
+    private Set<String> softdepend = new HashSet<>();
     /**
      * File we were loaded from.
      */
